@@ -2,13 +2,13 @@ package percabangan;
 
 public class IfElse {
     public static void main(String[] args) {
-        double totalBelanja = 5300;
-        double uangDiDompet = 2500;
+        double totalBelanja = 25000;
+        double uangDiDompet = 25000;
 
         if(uangDiDompet<totalBelanja){
             System.out.println("Uang kurang, kurangin jajan anda");
         }else{
-            System.out.println("Uang cukup, selamat menikmati");
+            System.out.println("Uang cukup, berelaan lah");
         }
     }
 }
